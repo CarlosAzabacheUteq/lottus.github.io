@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/" target="_blank"><img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/Free-Bootstrap-Theme-for-Developers-Appkit-landing.png" alt="Free Bootstrap Theme for Developers and Startups" /></a>
 
-You can use the [editor on GitHub](https://github.com/CarlosAzabacheUteq/lottus.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Theme Details & Demo
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Demo:** http://themes.3rdwavemedia.com/demo/appkit-landing/
 
-### Markdown
+AppKit Landing is a free Bootstrap theme designed to help developers & startups to promote their products and services. The **source SCSS files** are included so it's very easy to customise the template to suite your needs.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We will update and improve the template based on user feedback so get in touch or leave a comment if you have any questions or suggestions. If you like the template and find it useful, **we'd appreciate your help in spreading the word on your networks**. You can also [follow us on Twitter](https://twitter.com/3rdwave_themes) to be the first to know when we release new templates and other freebies
 
-```markdown
-Syntax highlighted code block
+## Author & License
 
-# Header 1
-## Header 2
-### Header 3
+This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE under the [Creative Commons Attribution 3.0 License (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/)
 
-- Bulleted
-- List
+If you'd like to **use the template without the attribution**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/)
 
-1. Numbered
-2. List
+#### Follow Xiaoying
 
-**Bold** and _Italic_ and `Code` text
+[Twitter](https://twitter.com/3rdwave_themes)
 
-[Link](url) and ![Image](src)
-```
+[Facebook](https://www.facebook.com/3rdwavethemes/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Dribbble](https://dribbble.com/Xiaoying)
 
-### Jekyll Themes
+[Medium](https://medium.com/@3rdwave_themes)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CarlosAzabacheUteq/lottus.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Linkedin](https://uk.linkedin.com/in/xiaoying)
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Latest Version
+**v2.1** - 12 March 2019
+
+[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/?target=changelog)
+
+
+## Features
+
+-  Fully Responsive
+-  HTML5 + CSS3
+-  Built on Bootstrap 4
+-  **SCSS** source files included
+-  1000+ FontAwesome icons
+-  Compatible with all modern browsers
+
+## Credits
+- [Bootstrap](http://getbootstrap.com/)
+- [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
+- [Google Fonts](https://fonts.google.com/)
+- [Illustration:Minimal Office Illustrations](http://www.sketchappsources.com/free-source/1388-minimal-office-desk-illustrations-icons-sketch-freebie-resource.html)
+- [jQuery ScrollTo](http://flesler.blogspot.co.uk/2007/10/jqueryscrollto.html)
+- [Product Screenshots:AppKit Admin Theme](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm)
