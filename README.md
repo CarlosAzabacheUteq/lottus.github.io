@@ -1,51 +1,153 @@
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/" target="_blank"><img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/Free-Bootstrap-Theme-for-Developers-Appkit-landing.png" alt="Free Bootstrap Theme for Developers and Startups" /></a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CSS3 Social Sign-in Buttons</title>
+    <meta name="description" content="Using CSS3 to create social sign-in buttons for Facebook, Twitter, Google, GitHub, Windows Live ID, Yahoo!, and OpenID">
+    <style>
+        /* BASE */
 
-## Theme Details & Demo
+        html { font-size:100%; }
+        body { padding: 40px 0 20px; margin: 0; font: 13px/1.333 "lucida grande", tahoma, sans-serif; color: #333; background: #fff;}
 
-**Demo:** http://themes.3rdwavemedia.com/demo/appkit-landing/
+        a, a:visited { color: #980905; }
+        a:hover, a:focus, a:active { text-decoration: none; }
 
-AppKit Landing is a free Bootstrap theme designed to help developers & startups to promote their products and services. The **source SCSS files** are included so it's very easy to customise the template to suite your needs.
+        h1 { margin: 0 0 0.5em; font-size: 28px;  font-weight: normal; }
+        h2 { margin: 0 0 0.75em; font-size: 15px; }
+        p { margin: 0 0 1.333em; }
+        em { font-style: italic; }
+        table { border-collapse: separate; border-spacing: 0; margin:  0; vertical-align: middle; }
+        th { font-weight: bold; }
+        th, td { padding: 5px 25px 5px 5px; text-align: left; vertical-align: middle; }
+        pre, code { font-family: monospace, sans-serif; font-size: 1em; color:#080; }
+        pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+        ul { list-style: square; margin: 1em 0 1em 0px; padding: 0; }
 
-We will update and improve the template based on user feedback so get in touch or leave a comment if you have any questions or suggestions. If you like the template and find it useful, **we'd appreciate your help in spreading the word on your networks**. You can also [follow us on Twitter](https://twitter.com/3rdwave_themes) to be the first to know when we release new templates and other freebies
+        /* TEMPLATE */
 
-## Author & License
+        .container { position:relative; overflow:hidden; max-width: 600px; _width: 600px; padding: 40px 60px; border: 1px solid #ccc; margin: 0 auto; background: #fff; }
 
-This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE under the [Creative Commons Attribution 3.0 License (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/)
+        .container pre,
+        .container .prettyprint { padding: 0; border: 0; margin: 0 0 20px; background: #fff; }
 
-If you'd like to **use the template without the attribution**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/)
+        .ribbon { position: absolute; top: -1px; right: -1px; opacity: 0.9; }
+        .ribbon:hover, .ribbon:focus, .ribbon:active { opacity: 1; }
+        .ribbon img { display: block; border: 0; }
 
-#### Follow Xiaoying
+        .header { padding-right: 80px; }
+        .header p { font-size: 18px; color: #808080; }
 
-[Twitter](https://twitter.com/3rdwave_themes)
+        .section { margin: 40px 0 20px; }
 
-[Facebook](https://www.facebook.com/3rdwavethemes/)
+        .example { padding: 20px; border: 1px solid #ccc; margin: 10px -20px 20px; }
+        .example p { margin: 15px 0 0; }
+        .example p:first-child { margin: 0; }
 
-[Dribbble](https://dribbble.com/Xiaoying)
+        .footer { margin: 20px 0 50px; font-size: 11px; color: #666; text-align: center; }
+        .footer a { color: #666;}
 
-[Medium](https://medium.com/@3rdwave_themes)
+        /* SMALL */
 
-[Linkedin](https://uk.linkedin.com/in/xiaoying)
+        @media (max-width: 500px) {
+            body { padding: 0; }
+            .container { padding: 20px 30px; }
+            .footer { margin-bottom: 20px; }
+        }
+    </style>
 
+    <link rel="stylesheet" href="auth-buttons.css">
 
-## Latest Version
-**v2.1** - 12 March 2019
+    <!-- prettyify -->
+    <link rel="stylesheet" href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css">
+    <script src="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
+</head>
 
-[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/?target=changelog)
+<body onload="prettyPrint()">
 
+<div class="container">
+    <a class="ribbon" href="http://github.com/necolas/css3-social-signin-buttons" target="_blank"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
-## Features
+    <div class="header">
+        <h1>CSS3 Social Sign-in Buttons</h1>
+    </div>
 
--  Fully Responsive
--  HTML5 + CSS3
--  Built on Bootstrap 4
--  **SCSS** source files included
--  1000+ FontAwesome icons
--  Compatible with all modern browsers
+    <div class="section">
+        <h2>Standard Buttons</h2>
+        <p>To create the default sign-in button, add a class of <code>btn-auth</code> and <code>btn-[service]</code> (where <code>[service]</code> is one of the supported social sign-in services) to any appropriate element (most likely an anchor).</p>
 
-## Credits
-- [Bootstrap](http://getbootstrap.com/)
-- [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
-- [Google Fonts](https://fonts.google.com/)
-- [Illustration:Minimal Office Illustrations](http://www.sketchappsources.com/free-source/1388-minimal-office-desk-illustrations-icons-sketch-freebie-resource.html)
-- [jQuery ScrollTo](http://flesler.blogspot.co.uk/2007/10/jqueryscrollto.html)
-- [Product Screenshots:AppKit Admin Theme](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm)
+        <div class="example">
+            <pre class="prettyprint"><code>&lt;a class="btn-auth btn-[service]" href="#">
+    Sign in with &lt;b>[service]&lt;/b>
+&lt;/a></code></pre>
+            <div>
+                <p><a class="btn-auth btn-facebook" href="#button">Sign in with <b>Facebook</b></a></p>
+                <p><button class="btn-auth btn-twitter">Sign in with <b>Twitter</b></button></p>
+                <p><a class="btn-auth btn-google" href="#button">Sign in with <b>Google</b></a></p>
+                <p><button class="btn-auth btn-github">Sign in with <b>GitHub</b></button></p>
+                <p><a class="btn-auth btn-yahoo" href="#button">Sign in with <b>Yahoo!</b></a></p>
+                <p><a class="btn-auth btn-windows" href="#button">Sign in with <b>Windows Live ID</b></a></p>
+                <p><a class="btn-auth btn-openid" href="#button">Sign in with <b>OpenID</b></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Larger buttons</h2>
+        <p>To create larger buttons include an additional class of <code>large</code>.</p>
+
+        <div class="example">
+            <pre class="prettyprint"><code>&lt;a class="btn-auth btn-[service] large" href="#">
+    Sign in with &lt;b>[service]&lt;/b>
+&lt;/a></code></pre>
+            <div>
+                <p><a class="btn-auth btn-facebook large" href="#button">Sign in with <b>Facebook</b></a></p>
+                <p><a class="btn-auth btn-twitter large" href="#button">Sign in with <b>Twitter</b></a></p>
+                <p><a class="btn-auth btn-google large" href="#button">Sign in with <b>Google</b></a></p>
+                <p><a class="btn-auth btn-github large" href="#button">Sign in with <b>GitHub</b></a></p>
+                <p><a class="btn-auth btn-yahoo large" href="#button">Sign in with <b>Yahoo!</b></a></p>
+                <p><a class="btn-auth btn-windows large" href="#button">Sign in with <b>Windows Live ID</b></a></p>
+                <p><a class="btn-auth btn-openid large" href="#button">Sign in with <b>OpenID</b></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Supported services</h2>
+        <ul>
+            <li>Facebook
+            <li>GitHub
+            <li>Google
+            <li>OpenID
+            <li>Twitter
+            <li>Windows Live ID
+            <li>Yahoo!
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Source code</h2>
+        <p>Available on GitHub: <a href="http://github.com/necolas/css3-social-signin-buttons">necolas/css3-social-signin-buttons</a></p>
+        <p>Download it in either <a href="http://github.com/necolas/css3-social-signin-buttons/zipball/master">zip</a> or <a href="http://github.com/necolas/css3-social-signin-buttons/tarball/master">tar</a> formats.</p>
+        <p>Clone the project with Git by running:<br>
+        <code>$ git clone git://github.com/necolas/css3-social-signin-buttons.git</code></p>
+    </div>
+
+    <div class="section">
+        <h2>Browser compatibility</h2>
+        <p>Full support: Google Chrome, Firefox 3.5+, Safari 4+, IE 10+, Opera 11.10+.</p>
+        <p><strong>Note:</strong> Some CSS3 enhancements are not supported in older versions of Opera and IE. The use of icons is not supported in IE 6 or IE 7.</p>
+    </div>
+
+    <div class="section">
+        <h2>License</h2>
+        <p>Public domain: <a href="http://unlicense.org/">http://unlicense.org/</a></p>
+    </div>
+</div>
+
+<div class="footer">
+    <a href="http://github.com/necolas/css3-social-signin-buttons">CSS3 Social Sign-in Buttons</a> by <a href="http://nicolasgallagher.com">Nicolas Gallagher</a>.
+</div>
+
+</body>
+</html>
